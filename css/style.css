@@ -120,6 +120,10 @@ td {
 border: 2px solid #383838;
 	border-radius: 4px;
 }
+ .inline-image {
+	 width: 600px;
+	 height: 800px;
+ }
 
 .box {
 	border: 2px solid #383838;
