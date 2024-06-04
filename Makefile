@@ -13,16 +13,15 @@ dev: intermediate
 	rm -r ./tmp
 
 prod: intermediate
-	rm -r /var/www/html/*
 	sed -i -f ./templates/nav.sed ./tmp/*.html
 	sed -i -f ./templates/banner.sed ./tmp/*.html
 	mkdir ./tmp/static
 
 deploy: prod
 	rm -r /var/www/borderlandkeep.old
-	mv /var/www/borderlandleep.com /var/www/borderlandkeep.old
-	rsync -azP  ~/borderlandkeep.com/tmp/* /var/www/boderlandkeep.com/
-	rsync -azP  ~/website-static/* /var/www/boderlandkeep.com/static/
+	mv /var/www/borderlandkeep.com /var/www/borderlandkeep.old
+	rsync -azP  ~/borderlandkeep.com/tmp/* /var/www/borderlandkeep.com/
+	rsync -azP  ~/website-static/* /var/www/borderlandkeep.com/static/
 	rm -r ./tmp
 
 intermediate:
