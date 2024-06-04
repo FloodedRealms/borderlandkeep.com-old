@@ -1,4 +1,4 @@
-./static
-./static/*
-./images/
-./images/*
+static
+static/*
+images/
+images/*
