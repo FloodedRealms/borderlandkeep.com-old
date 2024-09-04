@@ -1,2 +1,2 @@
 # Borderland Keep, The Keep on the Internet
-This is the project repository for the borderlandkeep.com landing page. If you are interested in contriubuting to a specific part (matrix admin, pleroma instance admin, crier developement, etc) of the project, please feel free to reach out. 
+This is the historical borderland keep static site. It has been deprecated in favor of the new one.
